@@ -22,10 +22,10 @@ main {
 p {
 	text-align: center;
 }
-img {
+/*img {
 	margin-right: 20px;
 	margin-left: 20px;
-}
+}*/
 div {
 	display: flex;
 	align-items: center;
