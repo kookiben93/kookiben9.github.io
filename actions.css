@@ -1,16 +1,33 @@
 body { 
-	background-color: red;
+	background-color: lightblue;
 	width: 1200px;
 	margin: auto;
 }
 h1, h4 {
-	color: darkred;
+	color: lightblue;
 	text-align: center;
 }
 h3, h4 {
 	text-align: center;
 	color: #6a6969;
 }
+ul {
+	text-align: center;
+}
 main {
-	color: red;
+	background-color: blue;
+	width: 86%;
+	margin: auto;
+}
+p {
+	text-align: center;
+}
+img {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+div {
+	display: flex;
+	align-items: center;
+	text-align: center;
 }
