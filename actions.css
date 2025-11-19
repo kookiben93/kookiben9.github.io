@@ -11,13 +11,43 @@ h3, h4 {
 	text-align: center;
 	color: #6a6969;
 }
-ul {
-	text-align: center;
+div.diapo {
+	/*text-align: center;*/
+	margin: 0 auto;
+	width: fit-content;
+	background-color: lightgreen;
+	padding: 20px;
+	border-radius: 5% / 5%;
 }
-main {
+section {
+	margin-bottom: 5%;
+}
+img {
+	width: 150px;
+}
+p#deux {
+	width: 25%;
+}
+p#num {
+		/*margin-left: 180px;*/
+		margin-left: 20%;
+		margin-right: 20%;
+		font-weight: bold;
+		color: darkgreen;
+}
+/*main {
 	background-color: blue;
 	width: 86%;
 	margin: auto;
+}*/
+div.bas {
+	margin-left: 15%;
+	margin-right: 15%;
+	position: absolute;
+}
+div.img {
+	display: block;
+	/*align-items: stretch;*/
 }
 p {
 	text-align: center;
