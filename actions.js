@@ -1,5 +1,5 @@
 // Tableau des images
-const images = ["arr.jpg", "avatar_default2.png", "arr.jpg", "avatar_default2.png"];
+const images = ["arr.jpg", "avatar_default2.png", "btn-home.png", "twitt.png"];
 let index = 0;
 
 // Sélection des éléments
