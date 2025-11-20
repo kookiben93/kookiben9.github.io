@@ -28,6 +28,13 @@ img {
 p#deux {
 	width: 25%;
 }
+button#next>img, button#prev>img {
+	width: 20px;
+}
+button#next, button#prev {
+	border-color:white;
+	padding: 2px;
+}
 p#num {
 		/*margin-left: 180px;*/
 		margin-left: 20%;
