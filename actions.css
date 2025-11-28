@@ -34,6 +34,7 @@ button#next>img, button#prev>img {
 button#next, button#prev {
 	border-color:white;
 	padding: 2px;
+	background-color: none; 
 }
 p#num {
 		/*margin-left: 180px;*/
