@@ -67,7 +67,7 @@ button img {
 }
 p#num {
 	/*margin-left: 180px;*/
-	margin-left: 5%;
+	margin-left: 10%;
 	margin-right: 10%;
 	font-weight: bold;
 	color: darkgreen;
@@ -79,7 +79,7 @@ p#num {
 	margin: auto;
 }*/
 div.bas {
-	margin-left: 5%;
+	margin-left: 20%;
 	margin-right: 20%;
 	position: absolute;
 }
