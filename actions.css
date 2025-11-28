@@ -36,6 +36,9 @@ button#next, button#prev {
 	padding: 2px;
 	background-color: none; 
 }
+button>img {
+	size: 50px;
+}
 p#num {
 		/*margin-left: 180px;*/
 		margin-left: 20%;
