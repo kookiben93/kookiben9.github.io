@@ -2,6 +2,25 @@ body {
 	background-image: url("fond.png");
 	width: 1200px;
 	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+img.terre{
+	width: 30px;
+	margin: 2px;
+}
+div.terre{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	text-align: center;
+}
+
+div.terre img {
+    width: 30px;
+    height: auto;
 }
 h1, h4 {
 	color: lightblue;
@@ -13,7 +32,8 @@ h3, h4 {
 }
 div.diapo {
 	/*text-align: center;*/
-	margin: 0 auto;
+	/*margin: 0 auto;*/
+	padding: 15%;
 	width: fit-content;
 	background-color: lightgreen;
 	padding: 20px;
@@ -23,10 +43,12 @@ section {
 	margin-bottom: 5%;
 }
 img {
-	width: 150px;
+	width: 200px;
 }
 p#deux {
-	width: 25%;
+	width: 60%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 button#next>img, button#prev>img {
 	width: 20px;
@@ -34,17 +56,22 @@ button#next>img, button#prev>img {
 button#next, button#prev {
 	border-color:white;
 	padding: 2px;
-	background-color: none; 
+	background: none;
+	border: none;
+	width: auto;
+	cursor: pointer;
 }
-button>img {
-	size: 50px;
+button img {
+	width: 55px!important;
+	margin: 2px;
 }
 p#num {
-		/*margin-left: 180px;*/
-		margin-left: 20%;
-		margin-right: 20%;
-		font-weight: bold;
-		color: darkgreen;
+	/*margin-left: 180px;*/
+	margin-left: 5%;
+	margin-right: 10%;
+	font-weight: bold;
+	color: darkgreen;
+	text-align: center;
 }
 /*main {
 	background-color: blue;
@@ -52,8 +79,8 @@ p#num {
 	margin: auto;
 }*/
 div.bas {
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 5%;
+	margin-right: 20%;
 	position: absolute;
 }
 div.img {
