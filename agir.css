@@ -1,0 +1,73 @@
+
+
+header{
+    margin : 20px 0;
+    padding : 20px;
+    background : linear-gradient(to right, #1BBEE7, #A4E163);
+    border-radius: 20px;
+    text-align: center;
+    color : white;
+}
+
+nav{
+    margin: 20px 0;
+    padding: 20px;
+    background: linear-gradient(to right, #25A182, #00A5CF);
+    border-radius : 20px;
+}
+
+nav a{
+    margin : 20px;
+    padding: 10px;
+    background: #7DD44A;
+    border-radius : 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    padding : 12px 21px;
+    font-size : 15px;
+}
+h3{
+    color: #004E64;
+}
+
+.mileu{
+    text-align: center;
+}
+
+.droite{
+    text-align: right;
+}
+
+article{
+    margin: 50px 0;
+    padding: 20px;
+}
+
+article.vert{
+    margin: 50px 0;
+    padding: 20px;
+}
+
+.vert{
+    background-color: #A4E163;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer{
+    margin : 20px 0;
+    padding : 20px;
+    background : #F6D82C;
+    border-radius : 20px;
+    text-align: center;
+}
+
+footer img{
+    height: 120px;
+    background: F6D82C;
+}
+
+
