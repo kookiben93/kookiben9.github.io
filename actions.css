@@ -1,13 +1,14 @@
 body { 
-	background-image: url("fond.png");
-	width: 1200px;
+	background-image: url("fond1.png");
+	width: auto, 1200px;
+	/*background-color: lightblue;*/
 	margin: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
 }
 img.terre{
-	width: 30px;
+	width: 50px!important;
 	margin: 2px;
 }
 div.terre{
@@ -17,10 +18,40 @@ div.terre{
 	gap: 8px;
 	text-align: center;
 }
-
+div.t1{
+	text-align: left!important;
+	margin-left: 50px;
+}
+span#imgdiapo img{
+	/*display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;*/
+	width: 300px!important;
+}
+span.img{
+	/*display: flex;
+	justify-content: center;
+	align-items: center;  
+	overflow: hidden;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;*/
+}
+h1.un{
+	margin-left: 50%!important;
+}
 div.terre img {
     width: 30px;
     height: auto;
+}
+span.parUn{
+	/*background-color: lightblue;*/ 
+	padding: 2%;
+	border: dashed;
+	border-color: darkblue;
+	/*margin: 2%;*/
+	
 }
 h1, h4 {
 	color: lightblue;
@@ -32,18 +63,21 @@ h3, h4 {
 }
 div.diapo {
 	/*text-align: center;*/
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 	padding: 15%;
 	width: fit-content;
-	background-color: lightgreen;
 	padding: 20px;
-	border-radius: 5% / 5%;
+	border-radius: 5%;
+	background-color: lightblue;
 }
 section {
 	margin-bottom: 5%;
 }
 img {
 	width: 200px;
+}
+p{
+	font-size: 22px;
 }
 p#deux {
 	width: 60%;
@@ -67,8 +101,8 @@ button img {
 }
 p#num {
 	/*margin-left: 180px;*/
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 18%;
+	margin-right: 18%;
 	font-weight: bold;
 	color: darkgreen;
 	text-align: center;
@@ -79,13 +113,20 @@ p#num {
 	margin: auto;
 }*/
 div.bas {
-	margin-left: 20%;
-	margin-right: 20%;
-	position: absolute;
+	margin-left: 10%;
+	margin-right: 10%;
+	/*position: absolute;*/
 }
 div.img {
 	display: block;
 	/*align-items: stretch;*/
+}
+h3.titre{
+	color: green;
+	font-size: 40px;
+}
+h3#tun{
+	/*margin-left: 20%;*/
 }
 p {
 	text-align: center;
@@ -97,6 +138,15 @@ img {
 div {
 	display: flex;
 	align-items: center;
+	text-align: center;
+}
+
+div.points{
+	text-align: center;
+}
+
+span.couleur{
+	background-color: lightgreen;
 	text-align: center;
 }
 
@@ -171,14 +221,14 @@ footer{
     display : flex;
     align-items: center;
     justify-content: space-between;
-    margin : 20px 0;
+    margin-bottom : 0;
     padding : 20px;
     background : #F6D82C;
     text-align: center;
 }
 
 footer img{
-    height: 150px;
+    height: 50%;
     background: #F6D82C;
 }
 
@@ -191,8 +241,14 @@ footer div.exter{
     text-align: center;
     gap: 5px;
     flex-direction: row;
+    margin-bottom: 0;
 }
 
 footer img.petit{
     height: 80px;
 }
+
+/*#diapoc {
+	margin-bottom: 3.5%;
+
+}*/
