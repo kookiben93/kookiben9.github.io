@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-   <meta charset="UTF-8">
-   <title>Nous contacter</title>
-   <link rel="stylesheet" type="text/css" href="contact.css">
+    <meta charset="UTF-8">
+    <title>Nous contacter</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 <body>
-   <header> <!-- entête de page-->
-       <div> <!--les logos de liens vers les applis-->
-           <img id="logoInsta" src="Images/logoInsta.png" alt="logo instagram">
-           <img src="Images/logoYt.png" alt="logo youtube">
-           <img src="Images/logoTiktok.png" alt="logo tiktok">
-       </div>
-       <div> <!-- logo et titre-->
-           <img src="Images/logoEcoJeuns.png" alt="logo Eco Jeunes">
-           <h1>Envie d'agir ?</h1>
-       </div>
-   </header>
+    <nav> <!-- redirections vers : nos actions et projet, rechercher, contactez-nous-->
+        <div> <!-- actions et peojet logo + redir°-->
+            <a href="actions.html">Nos actions et projets</a>
+        </div>
+        <div> <!-- barre de recherche + logo-->
+            <input type="search" id="searchBar"/>
+            <img src="Images/searchIcon.png" alt="image d'une loupe">
+        </div>
+        <div> <!-- redirection page Contact -->
+            <a href="agir.html">Devenir partenaire </a>
+        </div>
+    </nav>
 
-   <aside> <!-- redirections vers : nos actions et projet, rechercher, contactez-nous-->
-       <div> <!-- actions et peojet logo + redir°-->
-           <a href="actions.html">Nos actions et projets</a>
-           <img src="Images/actionsEtProjetsRedir.png" alt="image représentant un projet">
-       </div>
-       <div> <!-- barre de recherche + logo-->
-           <!-- ajout d'une barre de recherche.-->
-           <img src="Images/loupeImg.png" alt="image d'une loupe">
-       </div>
-       <div> <!-- redirection page Contact -->
-           
-           <a href="agir.html">Contactez-nous</a>
-       </div>
-    </aside>
+    <section> <!-- formulaire de contact + localisation de l'entreprise-->
+        <article> <!-- lien et réseaux sociaux-->
+            <h2>Lien et Réseaux Sociaux</h2>
+            <p>Dans un monde de plus en plus connecté, il est essentiel de disposer 
+                de divers moyens pour rester en contact avec nos clients, partenaires 
+                et collaborateurs. Voici un aperçu des méthodes que nous avons 
+                actuellement à disposition
+                Dans un monde de plus en plus connecté, il est essentiel de disposer 
+                de divers moyens pour rester en contact avec nos clients, partenaires 
+                et collaborateurs. Voici un aperçu des méthodes que nous avons 
+                actuellement à disposition : (TEXTE A VENIR)
+            </p>
+        </article>
+       
+        <figure> <!--Les 4 logos ici-->
+            <div id="logoTop">
+                <img src="Images/telegramLogo.png" alt="Image du logo Telegram">
+                <br>
+                <img src="Images/instagramLogo.png" alt="Image du logo Instagram">
+            </div>
+            <br><br><br>
+            <div id="logoBot">
+                <img src="Images/XLogo.png" alt="Image du logo X">
+                <br>
+                <img src="Images/youtubeLogo.png" alt="Image du logo YT">
+            </div>
+        </figure>
 
-   <section> <!-- formulaire de contact + localisation de l'entreprise-->
-       <h2>Nous contacter</h2>
-       <form action="/envoieDonnees" method="post">
-         <ul>
-           <li>
-             <label for="name">Nom&nbsp;:</label>
-             <input type="text" id="name" name="userName" />
-           </li>
-           <li>
-             <label for="mail">E-mail&nbsp;:</label>
-             <input type="email" id="mail" name="userMail" />
-           </li>
-           <li>
-             <label for="msg">Message&nbsp;:</label>
-             <textarea id="msg" name="userMsg"></textarea>
-           </li>
-         </ul>
-       </form>
-   </section>
+        <div> <!-- infos de contact-->
+            <p>Pour des questions urgentes ou des discussions qui nécessitent un échange immédiat, 
+                vous pouvez nous joindre par téléphone. Notre équipe est disponible du lundi au 
+                vendredi, de 9h00 à 17h00. (TEXTE A VENIR)</p>
+            <p><strong>e-mail : </strong><a href="mailto:Ecojeunesolidaires@gmail.com">Ecojeunesolidaires@gmail.com</a></p>
+            <p><strong>numéro : </strong><a href="tel:0769695403">07 69 69 54 03</a></p>
+        </div>
+    </section>
+    <script src="contact.js"></script>
 </body>
 </html>
