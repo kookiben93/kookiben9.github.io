@@ -1,5 +1,5 @@
 // Tableau des images
-const images = ["planete.webp", "main.jpg", "eco.jpg", "white.jpg"];
+const images = ["white.jpg", "t.webp", "main.jpg", "planete.png", "asso.png", "avion.jpg", "recyclage.jpg"];
 let index = 0;
 
 // Sélection des éléments
@@ -16,7 +16,7 @@ function afficherImage() {
 	diapob.src = images[(index + 1) % images.length];
 	diapoc.src = images[(index + 2) % images.length];
 	diapod.src = images[(index + 3) % images.length];
-	majDots();
+	updateDots();
 }
 
 // Bouton "Précédent"
@@ -30,3 +30,20 @@ next.addEventListener('click', () => {
 	index = (index + 1) % images.length;
 	afficherImage();
 });
+
+
+// Sélection des points
+const dots = document.querySelectorAll(".dot");
+
+// Fonction pour mettre à jour les points
+function updateDots() {
+	dots.forEach((dot, i) => {
+		dot.classList.remove("active");
+		if (i === index % images.length) {
+			dot.classList.add("active");
+		}
+	});
+}
+
+afficherImage();
+
