@@ -1,0 +1,68 @@
+nav{
+    background : linear-gradient(to right, #1BBEE7, #A4E163);
+    
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div {
+    display: flex;
+    align-items: center;
+}
+nav div img{
+    margin-left: 10px;
+    width: 25px;
+}
+nav a{
+    margin : 10px;
+    padding: 12px;
+    background: #7DD44A;
+    border-radius : 20px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    transform : scale(1.05);
+    transition: transform 0.4s;
+}
+#searchBar{
+    border-radius: 15px;
+}
+.highlight{
+    background-color: greenyellow;
+}
+
+section article {
+    background-color: #7DD44A;
+
+    max-width: 800px;
+    max-height: 200px;
+    margin: 100px 150px;
+    padding: 20px 20px 150px 50px;
+    border-radius: 50px;
+}
+section article h2{
+    margin-left: 100px;
+    color: navy;
+}
+section article p {
+    width: 700px;
+    height: 250px;
+}
+section figure div img {
+    width: 300px;
+}
+section figure>#logoTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section figure>#logoBot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section figure div br {
+    width: 150px;
+}

@@ -6,43 +6,55 @@
     <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 <body>
-    <aside> <!-- redirections vers : nos actions et projet, rechercher, contactez-nous-->
+    <nav> <!-- redirections vers : nos actions et projet, rechercher, contactez-nous-->
         <div> <!-- actions et peojet logo + redir°-->
             <a href="actions.html">Nos actions et projets</a>
-            <img src="Images/actionsEtProjetsRedir.png" alt="image représentant un projet">
         </div>
         <div> <!-- barre de recherche + logo-->
-            <!-- ajout d'une barre de recherche.-->
-            <img src="Images/loupeImg.png" alt="image d'une loupe">
+            <input type="search" id="searchBar"/>
+            <img src="Images/searchIcon.png" alt="image d'une loupe">
         </div>
         <div> <!-- redirection page Contact -->
-           
-            <a href="agir.html">Devenir partenaire</a>
-            <img src="Images/devenirPartenaireImg.png" alt="image d'une bulle de discussion">
+            <a href="agir.html">Devenir partenaire </a>
         </div>
-     </aside>
+    </nav>
 
     <section> <!-- formulaire de contact + localisation de l'entreprise-->
         <article> <!-- lien et réseaux sociaux-->
-            <p>
-                <h2>Lien et Réseaux Sociaux</h2>
-                <p>TextHereTextHereTextHereTextHere</p>
+            <h2>Lien et Réseaux Sociaux</h2>
+            <p>Dans un monde de plus en plus connecté, il est essentiel de disposer 
+                de divers moyens pour rester en contact avec nos clients, partenaires 
+                et collaborateurs. Voici un aperçu des méthodes que nous avons 
+                actuellement à disposition
+                Dans un monde de plus en plus connecté, il est essentiel de disposer 
+                de divers moyens pour rester en contact avec nos clients, partenaires 
+                et collaborateurs. Voici un aperçu des méthodes que nous avons 
+                actuellement à disposition : (TEXTE A VENIR)
             </p>
-            <img src="Images/megaphone.png" alt="image d'un mégafone">
         </article>
        
         <figure> <!--Les 4 logos ici-->
-            <img src="Images/tiktokLogo.png" alt="Image du logo TikTok">
-            <img src="Images/youtubeLogo.png" alt="Image du logo YT">
-            <img src="Images/XLogo.png" alt="Image du logo X">
-            <img src="Images/instagramLogo.png" alt="Image du logo Instagram">
+            <div id="logoTop">
+                <img src="Images/telegramLogo.png" alt="Image du logo Telegram">
+                <br>
+                <img src="Images/instagramLogo.png" alt="Image du logo Instagram">
+            </div>
+            <br><br><br>
+            <div id="logoBot">
+                <img src="Images/XLogo.png" alt="Image du logo X">
+                <br>
+                <img src="Images/youtubeLogo.png" alt="Image du logo YT">
+            </div>
         </figure>
 
         <div> <!-- infos de contact-->
-            <p>TextHereTextHereTextHereTextHere</p>
-            <p><strong>e-mail</strong>: mailICI@gmail.com</p>
-            <p><strong>numéro</strong>:06 xx xx xx xx</p>
+            <p>Pour des questions urgentes ou des discussions qui nécessitent un échange immédiat, 
+                vous pouvez nous joindre par téléphone. Notre équipe est disponible du lundi au 
+                vendredi, de 9h00 à 17h00. (TEXTE A VENIR)</p>
+            <p><strong>e-mail : </strong><a href="mailto:Ecojeunesolidaires@gmail.com">Ecojeunesolidaires@gmail.com</a></p>
+            <p><strong>numéro : </strong><a href="tel:0769695403">07 69 69 54 03</a></p>
         </div>
     </section>
+    <script src="contact.js"></script>
 </body>
 </html>
