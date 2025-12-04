@@ -1,5 +1,5 @@
 body { 
-	background-image: url("fond1.png");
+	/*background-image: url("fond1.png");*/
 	width: auto, 1200px;
 	/*background-color: lightblue;*/
 	margin: auto;
@@ -12,6 +12,18 @@ img.terre{
 	margin: 2px;
 }
 div.terre{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	text-align: center;
+}
+/*div.terre1{
+	display: flex;
+	margin-left: 10%;
+	gap: 8px;
+}*/
+div.points{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -41,6 +53,10 @@ span.img{
 h1.un{
 	margin-left: 50%!important;
 }
+h1.nos{
+	font-size: 47px!important;
+	margin-top: 3px;
+}
 div.terre img {
     width: 30px;
     height: auto;
@@ -48,7 +64,7 @@ div.terre img {
 span.parUn{
 	/*background-color: lightblue;*/ 
 	padding: 2%;
-	border: dashed;
+	/*border: dashed;*/
 	border-color: darkblue;
 	/*margin: 2%;*/
 	
@@ -74,7 +90,7 @@ section {
 	margin-bottom: 5%;
 }
 img {
-	width: 200px;
+	width: 300px;
 }
 p{
 	font-size: 22px;
@@ -122,8 +138,8 @@ div.img {
 	/*align-items: stretch;*/
 }
 h3.titre{
-	color: green;
-	font-size: 40px;
+	color: #6EB56E;
+	font-size: 37px;
 }
 h3#tun{
 	/*margin-left: 20%;*/
@@ -149,6 +165,39 @@ span.couleur{
 	background-color: lightgreen;
 	text-align: center;
 }
+button#prev:hover, button#next>img:hover{
+    transform:scale(1.05);
+}
+
+
+div.dots {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 15px;
+}
+
+span.dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #555;
+	transition: background-color 0.3s, transform 0.3s;
+}
+
+span.dot.active {
+	background-color: #000; 
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
 
 
 
