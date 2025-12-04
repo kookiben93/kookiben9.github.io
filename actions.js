@@ -1,5 +1,5 @@
 // Tableau des images
-const images = ["arr.jpg", "avatar_default2.png", "btn-home.png", "twitt.png"];
+const images = ["planete.webp", "main.jpg", "eco.jpg", "white.jpg"];
 let index = 0;
 
 // Sélection des éléments
