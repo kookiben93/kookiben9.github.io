@@ -48,23 +48,62 @@ nav a:hover {
     transition: transform 0.4s;
 }
 
-h3{
-    color: #004E64;
+h2{
+    color: navy;
 }
 
 
-article{
-    margin: 40px 10px;
+article, figure{
+    margin: 75px 200px;
     padding: 20px;
 }
-
-
-.vert{
-    background-color: #A4E163;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 50px 20px;
+#headOfBody {
+    border:#004E64 2px dashed;
+    border-radius: 25px;
+    text-align: center;
 }
+
+
+.faireUnDon{
+    background-color: #A4E163;
+    border-radius: 40px;
+    padding: 10px 50px;
+    margin: 50px 100px;
+}
+.faireUnDon>h2 {
+    color: navy;
+    margin-left: 100px;
+}.faireUnDon>h2:hover {
+    transform: scale3d(1.15, 1.2, 1.5);
+    transition: transform 0.4s;
+}.faireUnDon>h2:not(hover) {
+    transform: scale3d(1, 1, 1);
+    transition: transform 0.4s;
+}
+
+#contact {
+    max-width: 400px;
+    border:#004E64 2px dashed;
+    border-radius: 25px;
+}
+
+
+figure {
+    display: flex;
+}
+figure>div {
+    max-width: 800px;
+}
+figure>aside {
+    margin: 100px 0px 0px 200px;
+}
+figure>aside>h2 {
+    
+}
+figure>aside>a {
+    text-decoration: none;
+}
+
 
 footer{
     display : flex;
