@@ -89,3 +89,34 @@ section>div>p {
 #contactLiens {
     margin: 0px 100px;
 }
+
+footer{
+    display : flex;
+    align-items: end;
+    justify-content: space-between;
+    margin : 20px 0;
+    padding : 20px;
+    background : #F6D82C;
+    text-align: center;
+}
+
+
+footer>a img{
+    width: 150px;
+    margin-right: 100px;
+}
+
+footer>img{
+    width: 600px;
+}
+
+footer>div{
+    width: 200px;
+    display : flex;
+    justify-content: space-between;
+}
+
+footer>div>a img{
+    width: 50px;
+    margin-top: 15px;
+}
