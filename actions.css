@@ -219,16 +219,22 @@ img.logo:hover{
 }
 
 nav{
-    margin: 10px 0;
-    padding: 2px;
-    background: linear-gradient(to right, #25A182, #00A5CF);
+    background : linear-gradient(to right, #1BBEE7, #A4E163);
+    
+    padding: 0px 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap : 200px;
+    justify-content: space-between;
 }
-
-nav a{
+nav div {
+    display: flex;
+    align-items: center;
+}
+nav div img{
+    margin-right: 5px;
+    width: 25px;
+}
+nav a, #searchDiv{
     margin : 10px;
     padding: 12px;
     background: #7DD44A;
@@ -236,10 +242,20 @@ nav a{
     text-decoration: none;
     color: white;
 }
-
-nav a:hover {
+/*concerne les a du nav et les 4 logos*/
+a:hover, #searchDiv:hover {
     transform : scale(1.05);
     transition: transform 0.4s;
+}
+a:not(hover), #searchDiv:not(hover) {
+    transform : scale(1);
+    transition: transform 0.4s;
+}
+#searchBar{
+    border-radius: 15px;
+}
+.highlight{
+    background-color: greenyellow;
 }
 
 

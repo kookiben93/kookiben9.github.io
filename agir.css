@@ -28,6 +28,7 @@ header a, nav a, footer a:hover{
 img.logo:not(hover){
     
 }
+
 nav{
     background : linear-gradient(to right, #1BBEE7, #A4E163);
     
@@ -52,6 +53,7 @@ nav a, #searchDiv{
     text-decoration: none;
     color: white;
 }
+
 /*concerne les a du nav et les 4 logos*/
 a:hover, #searchDiv:hover {
     transform : scale(1.05);
