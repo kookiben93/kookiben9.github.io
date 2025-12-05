@@ -2,6 +2,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
+
+    margin: 0;
 }
 
 header{
@@ -9,7 +11,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding : 50px 10px;
-    background : linear-gradient(to right, #1BBEE7, #A4E163);
+    background : linear-gradient(to right, #A4E163, #1BBEE7);
     position: relative;
     color: white;
 }
@@ -125,7 +127,7 @@ figure>aside>a {
 
 footer{
     display : flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
     margin : 20px 0;
     padding : 20px;
@@ -135,7 +137,8 @@ footer{
 
 
 footer>a img{
-    width: 250px;
+    width: 150px;
+    margin-right: 100px;
 }
 
 footer>img{
@@ -143,17 +146,12 @@ footer>img{
 }
 
 footer>div{
+    width: 200px;
     display : flex;
-    flex-direction: column;
-    margin-right: 20px;
+    justify-content: space-between;
 }
 
 footer>div>a img{
-    width: 40px;
+    width: 50px;
     margin-top: 15px;
 }
-
-
-
-
-
