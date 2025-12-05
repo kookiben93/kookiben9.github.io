@@ -27,6 +27,10 @@ a:hover, #searchDiv:hover {
     transform : scale(1.05);
     transition: transform 0.4s;
 }
+a:not(hover), #searchDiv:not(hover) {
+    transform : scale(1);
+    transition: transform 0.4s;
+}
 #searchBar{
     border-radius: 15px;
 }
@@ -71,9 +75,16 @@ section>figure>#logoBot{
 section>figure div br {
     width: 150px;
 }
-
 section>div {
     margin: 0px 200px;
+}
+section>div>p {
+    text-align: center;
+    width: 800px;
+    margin-left: 245px;
+    padding: 20px;
+    border: navy 2px dashed;
+    border-radius: 25px;
 }
 #contactLiens {
     margin: 0px 100px;
