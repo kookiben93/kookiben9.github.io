@@ -18,12 +18,14 @@ header h1{
     font-size : 5rem;
 }
 
-img.logo:hover{
+header a, nav a, footer a:hover{
     transform:scale(1.05);
     transition: transform 0.4s;
 }
 
-
+img.logo:not(hover){
+    
+}
 nav{
     background : linear-gradient(to right, #1BBEE7, #A4E163);
     
@@ -131,24 +133,24 @@ footer{
     text-align: center;
 }
 
-footer img{
-    height: 150px;
-    background: #F6D82C;
+
+footer>a img{
+    width: 250px;
 }
 
-footer img.center{
-    text-align: center;
+footer>img{
+    width: 600px;
 }
 
-footer div.exter{
-    display: flex;
-    text-align: center;
-    gap: 5px;
-    flex-direction: row;
+footer>div{
+    display : flex;
+    flex-direction: column;
+    margin-right: 20px;
 }
 
-footer img.petit{
-    height: 80px;
+footer>div>a img{
+    width: 40px;
+    margin-top: 15px;
 }
 
 
