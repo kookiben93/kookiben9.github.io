@@ -124,7 +124,7 @@ footer{
 }
 
 
-footer>a img, header>a>img{
+footer>a img, header>a img{
     width: 150px;
     margin-right: 100px;
 }
