@@ -1,3 +1,27 @@
+header{
+    background : linear-gradient(to right, #A4E163, #1BBEE7);
+    color: white;
+
+    max-height: 150px;
+    padding : 10px 10px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+
+    font-size: x-large;
+}
+header a {
+    display: inline-block;
+}
+a:hover, #searchDiv:hover {
+    transform:scale(1.05);
+    transition: transform 0.4s;
+}
+a:not(:hover), #searchDiv:not(:hover) {
+    transform : scale(1);
+    transition: transform 0.4s;
+}
+
 nav{
     background : linear-gradient(to right, #1BBEE7, #A4E163);
     

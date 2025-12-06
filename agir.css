@@ -124,7 +124,7 @@ footer{
 }
 
 
-footer>a img, header>a img{
+footer>a img{
     width: 150px;
     margin-right: 100px;
 }
@@ -139,7 +139,7 @@ footer>div{
     justify-content: space-between;
 }
 
-footer>div>a img, header>div>a img{
+footer>div>a img{
     width: 50px;
     margin-top: 15px;
 }
