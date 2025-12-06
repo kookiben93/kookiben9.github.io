@@ -1,11 +1,16 @@
+* {
+    margin: 0;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
-
-    margin: 0;
 }
 h2{
     color: navy;
+    margin-bottom: 25px;
+}
+p {
+    margin: 25px 0px;
 }
 
 header{
@@ -23,13 +28,21 @@ header{
 header a {
     display: inline-block;
 }
+header>div {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+}
 footer>a img, header>a>img{
     width: 100px;
     margin-right: 100px;
 }
-footer>div>a img, header>div>a img{
+footer>div a img, header>div a img{
     width: 50px;
     margin-top: 15px;
+}
+header>div>select {
+    width: 40px;
 }
 
 a:hover, #searchDiv:hover {

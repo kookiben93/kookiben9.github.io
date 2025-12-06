@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Nous contacter</title>
     <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="../header+footer/headerFooterNav.css">
 </head>
 <body>
 
@@ -11,32 +12,39 @@
         
         <a href="accueil.html"><img src="../Images/logoWithTitle.png" alt = "Eco Jeun's"></a>
         
-        <h1><b>Nous contacter</b></h1>
+        <h1 class="fr"><b>Nous contacter</b></h1>
+        <h1 class="en"><b>Contact-us</b></h1>
         
         <div>
-            <a href="https://www.instagram.com/"><img src="../Images/instagramLogo.png" alt = "Eco Jeun's"></a>
-            <a href="https://www.youtube.com/"><img src="../Images/youtubeLogo.png" alt = "Eco Jeun's"></a>
-            <a href="https://web.telegram.org/k/"><img src="../Images/telegramLogo.png" alt = "Eco Jeun's"></a>
+            <figure>
+                <a href="https://www.instagram.com/"><img src="../Images/instagramLogo.png" alt = "Eco Jeun's"></a>
+                <a href="https://www.youtube.com/"><img src="../Images/youtubeLogo.png" alt = "Eco Jeun's"></a>
+                <a href="https://web.telegram.org/k/"><img src="../Images/telegramLogo.png" alt = "Eco Jeun's"></a>
+            </figure>
+            <select id="langChoice">
+                <option value="fr">&#127467;&#127479;</option> <!--Unicode drapeau français-->
+                <option value="en">&#127468;&#127463;</option> <!--Unicode drapeau anglais-->
+            </select>
         </div>
-        
-        
     </header>
     
     <nav> <!-- redirections vers : nos actions et projet, rechercher, contactez-nous-->
         <div> <!-- actions et peojet logo + redir°-->
-            <a href="actions.html" lang="fr"><b>Nos actions et projets</b></a>
+            <a class="fr" href="actions.html"><b>Nos actions et projets</b></a>
+            <a class="en" href="actions.html"><b>Our actions and projects</b></a>
         </div>
         <div id="searchDiv"> <!-- barre de recherche + logo-->
             <img src="../Images/searchIcon.png" alt="image d'une loupe">
             <input type="search" placeholder=" Rechercher un élément.." id="searchBar"/>
         </div>
         <div> <!-- redirection page Contact -->
-            <a href="agir.html"><b>Devenir partenaire</b></a>
+            <a class="fr" href="agir.html"><b>Devenir partenaire</b></a>
+            <a class="en" href="agir.html"><b>Become a partner</b></a>
         </div>
     </nav>
 
     <section> <!-- formulaire de contact + localisation de l'entreprise-->
-        <article> <!-- lien et réseaux sociaux-->
+        <article class="fr"> <!-- lien et réseaux sociaux-->
             <h2>Lien et Réseaux Sociaux</h2>
             <p>Dans un monde de plus en plus connecté, il est essentiel de disposer 
                 de divers moyens pour rester en contact avec nos clients, partenaires 
@@ -58,6 +66,29 @@
                 actuellement à disposition : (TEXTE A VENIR)
             </p>
         </article>
+        <article class="en"> <!-- lien et réseaux sociaux-->
+            <h2>Links and social medias</h2>
+            <p>
+                In an increasingly connected world, it is essential to have
+                various ways to stay in touch with our customers, partners,
+                and employees. Here is an overview of the methods we currently have
+                at our disposal:
+                In an increasingly connected world, it is essential to have
+                various ways to stay in touch with our customers, partners,
+                and employees. Here is an overview of the methods we currently have
+                at our disposal:
+                In an increasingly connected world, it is essential to have
+                various ways to stay in touch with our customers, partners,
+                and employees. Here is an overview of the methods we currently have
+                at our disposal: In an increasingly connected world, it is essential to have
+                various ways to stay in touch with our customers, partners,
+                and employees. Here is an overview of the methods we currently have
+                at our disposal: In an increasingly connected world, it is essential to have
+                various ways to stay in touch with our customers, partners,
+                and employees. Here is an overview of the methods we currently have
+                at our disposal: (TEXT TO COME)
+            </p>
+        </article>
        
         <figure> <!--Les 4 logos ici-->
             <div id="logoTop">
@@ -74,7 +105,7 @@
         </figure>
         <br><br><br><br>
 
-        <div> <!-- infos de contact-->
+        <div class="fr"> <!-- infos de contact-->
             <p>Pour des questions urgentes ou des discussions qui nécessitent un échange immédiat, 
                 vous pouvez nous joindre par téléphone. Notre équipe est disponible du lundi au 
                 vendredi, de 9h00 à 17h00. Pour des questions urgentes ou des discussions qui nécessitent un échange immédiat, 
@@ -88,6 +119,24 @@
                 <!--&emsp est une tabulation, plus afficace que &nbrsp-->
                 <p><strong>e-mail : &emsp;&emsp;</strong><a href="mailto:Ecojeunesolidaires@gmail.com">Ecojeunesolidaires@gmail.com</a></p> 
                 <p><strong>numéro : &emsp;&emsp;</strong><a href="tel:0769695403">07 69 69 54 03</a></p>
+            </div>
+            <br><hr><br>
+        </div>
+        <div class="en"> <!-- infos de contact-->
+            <p>
+                For urgent questions or discussions requiring immediate attention,
+                you can reach us by phone. Our team is available Monday through
+                Friday, from 9:00 AM to 5:00 PM. For urgent questions or discussions requiring immediate attention,
+                you can reach us by phone. Our team is available Monday through
+                Friday, from 9:00 AM to 5:00 PM. For urgent questions or discussions requiring immediate attention,
+                you can reach us by phone. Our team is available Monday through
+                Friday, from 9:00 AM to 5:00 PM. (TEXT TO COME)
+            </p>
+            <br><hr><br>
+            <div id="contactLiens"> <!-- utilisation d'un id pour pouvoir si nécessaire ajouter un style différent à ces redirections-->
+                <!--&emsp est une tabulation, plus afficace que &nbrsp-->
+                <p><strong>e-mail : &emsp;&emsp;</strong><a href="mailto:Ecojeunesolidaires@gmail.com">Ecojeunesolidaires@gmail.com</a></p> 
+                <p><strong>number : &emsp;&emsp;</strong><a href="tel:0769695403">07 69 69 54 03</a></p>
             </div>
             <br><hr><br>
         </div>
@@ -108,6 +157,8 @@
             
     </footer>
 
+    <script src="../JavaScripts/searchBar.js"></script>
+    <script src="../JavaScripts/langue.js"></script>
 </body>
 
 </html>
