@@ -23,6 +23,15 @@ header{
 header a {
     display: inline-block;
 }
+footer>a img, header>a>img{
+    width: 100px;
+    margin-right: 100px;
+}
+footer>div>a img, header>div>a img{
+    width: 50px;
+    margin-top: 15px;
+}
+
 a:hover, #searchDiv:hover {
     transform:scale(1.05);
     transition: transform 0.4s;
@@ -123,12 +132,6 @@ footer{
     text-align: center;
 }
 
-
-footer>a img{
-    width: 150px;
-    margin-right: 100px;
-}
-
 footer>img{
     width: 600px;
 }
@@ -137,9 +140,4 @@ footer>div{
     width: 200px;
     display : flex;
     justify-content: space-between;
-}
-
-footer>div>a img{
-    width: 50px;
-    margin-top: 15px;
 }
