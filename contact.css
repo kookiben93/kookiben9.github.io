@@ -5,6 +5,15 @@ body a{
     text-decoration: none;
     color:navy;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+
+    margin: 0;
+}
+h2{
+    color: navy;
+}
 header{
     background : linear-gradient(to right, #A4E163, #1BBEE7);
     color: white;
@@ -20,6 +29,15 @@ header{
 header a {
     display: inline-block;
 }
+footer>a img, header>a>img{
+    width: 100px;
+    margin-right: 100px;
+}
+footer>div>a img, header>div>a img{
+    width: 50px;
+    margin-top: 15px;
+}
+
 a:hover, #searchDiv:hover {
     transform:scale(1.05);
     transition: transform 0.4s;
@@ -117,7 +135,6 @@ footer{
     background : #F6D82C;
     text-align: center;
 }
-
 
 footer>a img{
     width: 150px;

@@ -199,22 +199,46 @@ span.dot.active {
 
 
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+
+    margin: 0;
+}
+h2{
+    color: navy;
+}
+
 header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding : 50px 10px;
-    background : linear-gradient(to right, #1BBEE7, #A4E163);
-    position: relative;
+    background : linear-gradient(to right, #A4E163, #1BBEE7);
     color: white;
+
+    max-height: 150px;
+    padding : 10px 10px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+
+    font-size: x-large;
+}
+header a {
+    display: inline-block;
+}
+footer>a img, header>a>img{
+    width: 100px;
+    margin-right: 100px;
+}
+footer>div>a img, header>div>a img{
+    width: 50px;
+    margin-top: 15px;
 }
 
-header h1{
-    font-size : 5rem;
-}
-
-img.logo:hover{
+a:hover, #searchDiv:hover {
     transform:scale(1.05);
+    transition: transform 0.4s;
+}
+a:not(:hover), #searchDiv:not(:hover) {
+    transform : scale(1);
     transition: transform 0.4s;
 }
 
