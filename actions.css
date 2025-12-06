@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+}
+body { 
+	/*background-image: url("fond1.png");*/
+	width: auto, 1200px;
+	/*background-color: lightblue;*/
+	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+h2{
+    color: navy;
+}
+
+header{
+    background : linear-gradient(to right, #A4E163, #1BBEE7);
+    color: white;
+
+    max-height: 150px;
+    padding : 10px 10px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+
+    font-size: x-large;
+}
+header a {
+    display: inline-block;
+}
+header>div {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+}
+footer>a img, header>a img{
+    width: 100px;
+    margin-right: 100px;
+}
+footer>div>a img, header>div a img{
+    width: 50px;
+    margin-top: 15px;
+}
+
+a:hover, #searchDiv:hover {
+    transform:scale(1.05);
+    transition: transform 0.4s;
+}
+a:not(:hover), #searchDiv:not(:hover) {
+    transform : scale(1);
+    transition: transform 0.4s;
+}
+
+nav{
+    background : linear-gradient(to right, #1BBEE7, #A4E163);
+    
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div {
+    display: flex;
+    align-items: center;
+}
+nav div img{
+    margin-right: 5px;
+    width: 25px;
+}
+nav a, #searchDiv{
+    margin : 10px;
+    padding: 12px;
+    background: #7DD44A;
+    border-radius : 20px;
+    text-decoration: none;
+    color: white;
+}
+#searchBar{
+    border-radius: 15px;
+}
+.highlight{
+    background-color: greenyellow;
+}
+
+img.terre{
+	width: 50px!important;
+	margin: 2px;
+}
+div.terre{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	text-align: center;
+}
+/*div.terre1{
+	display: flex;
+	margin-left: 10%;
+	gap: 8px;
+}*/
+div.points{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	text-align: center;
+}
+div.t1{
+	text-align: left!important;
+	margin-left: 50px;
+}
+span#imgdiapo img{
+	/*display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;*/
+	width: 300px!important;
+}
+span.img{
+	/*display: flex;
+	justify-content: center;
+	align-items: center;  
+	overflow: hidden;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;*/
+}
+h1.un{
+	margin-left: 50%!important;
+}
+h1.nos{
+	font-size: 47px!important;
+	margin-top: 3px;
+}
+div.terre img {
+    width: 30px;
+    height: auto;
+}
+span.parUn{
+	/*background-color: lightblue;*/ 
+	padding: 2%;
+	/*border: dashed;*/
+	border-color: darkblue;
+	/*margin: 2%;*/
+	
+}
+main h1, h4 {
+	color: lightblue;
+	text-align: center;
+}
+h3, h4 {
+	text-align: center;
+	color: #6a6969;
+}
+div.diapo {
+	/*text-align: center;*/
+	margin: 0 auto;
+	padding: 15%;
+	width: fit-content;
+	padding: 20px;
+	border-radius: 5%;
+	background-color: lightblue;
+}
+section {
+	margin-bottom: 5%;
+}
+main img {
+	width: 300px;
+}
+p{
+	font-size: 22px;
+}
+p#deux {
+	width: 60%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+button#next>img, button#prev>img {
+	width: 20px;
+}
+button#next, button#prev {
+	border-color:white;
+	padding: 2px;
+	background: none;
+	border: none;
+	width: auto;
+	cursor: pointer;
+}
+button img {
+	width: 55px!important;
+	margin: 2px;
+}
+p#num {
+	/*margin-left: 180px;*/
+	margin-left: 18%;
+	margin-right: 18%;
+	font-weight: bold;
+	color: darkgreen;
+	text-align: center;
+}
+/*main {
+	background-color: blue;
+	width: 86%;
+	margin: auto;
+}*/
+div.bas {
+	margin-left: 10%;
+	margin-right: 10%;
+	/*position: absolute;*/
+}
+div.img {
+	display: block;
+	/*align-items: stretch;*/
+}
+h3.titre{
+	color: #6EB56E;
+	font-size: 37px;
+}
+h3#tun{
+	/*margin-left: 20%;*/
+}
+p {
+	text-align: center;
+}
+main img {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+div {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+div.points{
+	text-align: center;
+}
+
+span.couleur{
+	background-color: lightgreen;
+	text-align: center;
+}
+button#prev:hover, button#next>img:hover{
+    transform:scale(1.05);
+}
+
+
+div.dots {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 15px;
+}
+
+span.dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #555;
+	transition: background-color 0.3s, transform 0.3s;
+}
+
+span.dot.active {
+	background-color: #000; 
+	transform: scale(1.2);
+}
+
+
+
+footer{
+    display : flex;
+    align-items: end;
+    justify-content: space-between;
+    margin : 20px 0;
+    padding : 20px;
+    background : #F6D82C;
+    text-align: center;
+}
+
+
+footer>a img{
+    width: 150px;
+    margin-right: 100px;
+}
+
+footer>img{
+    width: 600px;
+}
+
+footer>div{
+    width: 200px;
+    display : flex;
+    justify-content: space-between;
+}
+
+footer>div>a img{
+    width: 50px;
+    margin-top: 15px;
+}
