@@ -33,7 +33,7 @@ a:not(:hover), #searchDiv:not(:hover) {
 }
 
 nav{
-    background : linear-gradient(to right, #1BBEE7, #A4E163);
+    background : linear-gradient(to top, #25A182, #00A5CF);
     
     padding: 0px 20px;
     display: flex;
