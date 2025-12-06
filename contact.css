@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+h2{
+    color: navy;
+    margin-bottom: 25px;
+}
+p {
+    margin: 25px 0px;
+}
+
+header{
+    background : linear-gradient(to right, #A4E163, #1BBEE7);
+    color: white;
+
+    max-height: 150px;
+    padding : 10px 10px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+
+    font-size: x-large;
+}
+header a {
+    display: inline-block;
+}
+header>div {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+}
+footer>a img, header>a>img{
+    width: 100px;
+    margin-right: 100px;
+}
+footer>div a img, header>div a img{
+    width: 50px;
+    margin-top: 15px;
+}
+header>div>select {
+    width: 40px;
+}
+
+a:hover, #searchDiv:hover {
+    transform:scale(1.05);
+    transition: transform 0.4s;
+}
+a:not(:hover), #searchDiv:not(:hover) {
+    transform : scale(1);
+    transition: transform 0.4s;
+}
+
+nav{
+    background : linear-gradient(to top, #25A182, #00A5CF);
+    
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div {
+    display: flex;
+    align-items: center;
+}
+nav div img{
+    margin-right: 5px;
+    width: 25px;
+}
+nav a, #searchDiv{
+    margin : 10px;
+    padding: 12px;
+    background: #7DD44A;
+    border-radius : 20px;
+    text-decoration: none;
+    color: white;
+}
+#searchBar{
+    border-radius: 15px;
+}
+.highlight{
+    background-color: greenyellow;
+}
+
+section>article {
+    background-color: #7DD44A;
+
+    max-width: 800px;
+    max-height: 400px;
+    margin: 150px 400px 100px 400px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 50px;
+}
+section>article h2{
+    text-align: center;
+    color: navy;
+}
+section>article p {
+    max-width: 100%;
+    text-align: center;
+}
+section>figure div img {
+    width: 250px;
+}
+section>figure>#logoTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section>figure>#logoBot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section>figure div br {
+    width: 150px;
+}
+section>div {
+    margin: 0px 200px;
+}
+section>div>p {
+    text-align: center;
+    width: 800px;
+    margin-left: 245px;
+    padding: 20px;
+    border: navy 2px dashed;
+    border-radius: 25px;
+}
+#contactLiens {
+    margin: 0px 100px;
+}
+
+footer{
+    display : flex;
+    align-items: end;
+    justify-content: space-between;
+    margin : 20px 0;
+    padding : 20px;
+    background : #F6D82C;
+    text-align: center;
+}
+
+footer>a img{
+    width: 150px;
+    margin-right: 100px;
+}
+
+footer>img{
+    width: 600px;
+}
+
+footer>div{
+    width: 200px;
+    display : flex;
+    justify-content: space-between;
+}
+
+footer>div>a img{
+    width: 50px;
+    margin-top: 15px;
+}
