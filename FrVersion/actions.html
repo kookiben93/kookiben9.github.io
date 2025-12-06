@@ -7,41 +7,48 @@
 </head>
 <body>
      <header>
-        
         <a href="accueil.html"><img src="../Images/logoWithTitle.png" alt = "Eco Jeun's"></a>
         
-        <h1> <b>Envie d'agir?</b></h1>
+        <h1 class="fr"><b>Nos actions</b></h1>
+        <h1 class="en"><b>Our actions</b></h1>
         
         <div>
-            <a href="https://www.instagram.com/"><img src="../Images/instagramLogo.png" alt = "Eco Jeun's"></a>
-            <a href="https://www.youtube.com/"><img src="../Images/youtubeLogo.png" alt = "Eco Jeun's"></a>
-            <a href="https://web.telegram.org/k/"><img src="../Images/telegramLogo.png" alt = "Eco Jeun's"></a>
+            <figure>
+                <a href="https://www.instagram.com/"><img src="../Images/instagramLogo.png" alt = "Eco Jeun's"></a>
+                <a href="https://www.youtube.com/"><img src="../Images/youtubeLogo.png" alt = "Eco Jeun's"></a>
+                <a href="https://web.telegram.org/k/"><img src="../Images/telegramLogo.png" alt = "Eco Jeun's"></a>
+            </figure>
+            <select id="langChoice">
+                <option value="fr">&#127467;&#127479;</option> <!--Unicode drapeau français-->
+                <option value="en">&#127468;&#127463;</option> <!--Unicode drapeau anglais-->
+            </select>
         </div>
-        
-        
     </header>
-    
 
 	<nav>
 
         <div> <!-- actions et projet logo + redir°-->
-            <a href="actions.html" lang="fr">Nos actions et projets</a>
+            <a class="fr" href="agir.html" lang="fr"><b>Devenir partenaire</b></a>
+            <a class="en" href="actions.html" lang="fr"><b>Become a partne</b></a>
         </div>
         <div id="searchDiv"> <!-- barre de recherche + logo-->
             <img src="../Images/searchIcon.png" alt="image d'une loupe">
             <input type="search" placeholder=" Rechercher un élément.." id="searchBar"/>
         </div>
         <div> <!-- redirection page Contact -->
-            <a href="contact.html"> Nous contacter </a>
+            <a class="fr" href="contact.html"> <b>Nous contacter</b> </a>
+            <a class="en" href="contact.html"> <b>Contact us</b> </a>
         </div>
     </nav>
-	
-	    <h1 class="nos">Nos Actions</h1>
 	<main>
+	
+	    <h1 class="nos fr">Nos Actions</h1>
+	    <h1 class="nos en">Our Actions</h1>
         <section class="section">
             <div class="terre">
             	<img src="../Images/terre.png" class="terre" alt="terre"/>
-            	<h3 class="titre">Nos événements passés</h3>
+            	<h3 class="titre fr">Nos événements passés</h3>
+            	<h3 class="titre en">Our past events</h3>
             </div>
 			<div class="diapo">
 				<button id="prev"><img src="../Images/flècheG.png" title="précédent" alt="précédent"></button>
@@ -66,31 +73,49 @@
 
 
 			<div class="dots"></div>
-			<p id="num">Au fil de l’année, nous avons organisé plusieurs actions 
+			<p class="fr" id="num">Au fil de l’année, nous avons organisé plusieurs actions 
 			engagées pour sensibiliser les jeunes à l’écologie.
 			Ces événements nous ont permis de rassembler, d’agir concrètement et de 
 			mettre en avant la créativité de notre équipe.</p>
+			<p class="en" id="num">Throughout the year, we organized several initiatives
+				aimed at raising awareness of environmental issues among young people.
+				These events allowed us to bring people together, take concrete action, and
+				showcase the creativity of our team.
+			</p>
         </section>
 		
         <section class="section">
              <div class="terre">
              	<img src="../Images/terre.png" class="terre" alt="terre"/>
-             	<h3 class="titre">Nos projets en cours</h3>
+             	<h3 class="titre fr">Nos projets en cours</h3>
+             	<h3 class="titre en">Our current projects</h3>
              </div>
              
             <div class="bas">
 				<img src="../Images/gens1.avif" title="action écologique" alt="action écologique">
-				<p id="deux">Nous développons actuellement plusieurs initiatives 
-				destinées à renforcer l’engagement écologique au sein de notre 
-				communauté. Parmi elles, la création d’ateliers interactifs pour 
-				sensibiliser les jeunes aux gestes durables, ainsi que la mise en 
-				place de partenariats locaux afin d’organiser des actions 
-				concrètes sur le terrain.<br><br>
-				En parallèle, nous travaillons sur de nouveaux supports de 
-				communication pour rendre l’information plus accessible et 
-				attrayante. Ces projets sont conçus pour encourager la 
-				participation, inspirer le changement et permettre à chacun de 
-				contribuer, à son échelle, à la protection de l’environnement.</p>
+				<p class="fr" id="deux">Nous développons actuellement plusieurs initiatives 
+					destinées à renforcer l’engagement écologique au sein de notre 
+					communauté. Parmi elles, la création d’ateliers interactifs pour 
+					sensibiliser les jeunes aux gestes durables, ainsi que la mise en 
+					place de partenariats locaux afin d’organiser des actions 
+					concrètes sur le terrain.<br><br>
+					En parallèle, nous travaillons sur de nouveaux supports de 
+					communication pour rendre l’information plus accessible et 
+					attrayante. Ces projets sont conçus pour encourager la 
+					participation, inspirer le changement et permettre à chacun de 
+					contribuer, à son échelle, à la protection de l’environnement.</p>
+				<p class="en" id="deux">We are currently developing several initiatives
+					designed to strengthen environmental commitment within our
+					community. These include the creation of interactive workshops to
+					raise awareness among young people about sustainable practices, as well as the establishment of
+					local partnerships to organize
+					concrete actions on the ground.<br><br>
+					In parallel, we are working on new
+					communication tools to make information more accessible and
+					engaging. These projects are designed to encourage
+					participation, inspire change, and allow everyone to
+					contribute, at their own level, to environmental protection.
+				</p>
 				<div class="img">
 					<img id="un" src="../Images/gens2.avif" title="action écologique" alt="action écologique">
 					<img src="../Images/gens3.avif" title="action écologique" alt="action écologique">
@@ -98,22 +123,40 @@
 			</div>
         </section>
         <section class="sec">
-             <div class="terre" class="t"><img src="../Images/terre.png" class="terre" alt="terre"/><h3 class="titre">Nos projets à venir</h3></div>
+             <div class="terre t">
+				<img src="../Images/terre.png" class="terre" alt="terre"/>
+				<h3 class="titre fr">Nos projets à venir</h3>
+				<h3 class="titre en">Our upcoming projects</h3>
+			</div>
             <div class="bas">
 					<img id="un" src="../Images/empreinte.webp" title="empreinte écologique" alt="empreinte écologique">
 					
-				<span class="parUn"><p id="deux">
-				Dans les prochains mois, nous prévoyons de lancer de nouvelles 
-				campagnes axées sur l’innovation et la participation citoyenne. 
-				Elles auront pour objectif de toucher un public encore plus large 
-				et d’offrir des opportunités d’implication variées, allant 
-				d’actions locales à des projets collaboratifs en ligne.
-				<br><br>
-				Nous imaginons également de nouveaux événements destinés à 
-				valoriser la créativité des jeunes et leurs idées pour un avenir 
-				plus durable. Ces futurs projets témoignent de notre volonté de 
-				continuer à évoluer, à nous adapter et à proposer des solutions 
-				toujours plus inspirantes pour agir ensemble.</p></span>
+				<span class="parUn">
+					<p class="fr" id="deux">
+						Dans les prochains mois, nous prévoyons de lancer de nouvelles 
+						campagnes axées sur l’innovation et la participation citoyenne. 
+						Elles auront pour objectif de toucher un public encore plus large 
+						et d’offrir des opportunités d’implication variées, allant 
+						d’actions locales à des projets collaboratifs en ligne.
+						<br><br>
+						Nous imaginons également de nouveaux événements destinés à 
+						valoriser la créativité des jeunes et leurs idées pour un avenir 
+						plus durable. Ces futurs projets témoignent de notre volonté de 
+						continuer à évoluer, à nous adapter et à proposer des solutions 
+						toujours plus inspirantes pour agir ensemble.
+					</p>
+					<p class="en" id="deux">
+						In the coming months, we plan to launch new
+						campaigns focused on innovation and citizen participation.
+						These will aim to reach an even wider audience
+						and offer diverse opportunities for involvement, ranging
+						from local actions to collaborative online projects.
+						We are also developing new events designed to
+						showcase the creativity of young people and their ideas for a more sustainable future.
+						These future projects demonstrate our commitment to
+						continue to evolve, adapt, and offer increasingly inspiring solutions for working together.
+					</p>
+				</span>
 			</div>
         </section>
     </main>
@@ -130,8 +173,9 @@
             
     </footer>
 
-	<script src="searchBar.js"></script>
-	<script src="actions.js" defer></script>
+    <script src="../JavaScripts/searchBar.js"></script>
+	<script src="../JavaScripts/actions.js"></script>
+    <script src="../JavaScripts/langue.js"></script>
 	
 </body>
 </html>

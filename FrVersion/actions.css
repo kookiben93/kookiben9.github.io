@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 body { 
 	/*background-image: url("fond1.png");*/
 	width: auto, 1200px;
@@ -6,7 +9,83 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 }
+
+h2{
+    color: navy;
+}
+
+header{
+    background : linear-gradient(to right, #A4E163, #1BBEE7);
+    color: white;
+
+    max-height: 150px;
+    padding : 10px 10px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+
+    font-size: x-large;
+}
+header a {
+    display: inline-block;
+}
+header>div {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+}
+footer>a img, header>a img{
+    width: 100px;
+    margin-right: 100px;
+}
+footer>div>a img, header>div a img{
+    width: 50px;
+    margin-top: 15px;
+}
+
+a:hover, #searchDiv:hover {
+    transform:scale(1.05);
+    transition: transform 0.4s;
+}
+a:not(:hover), #searchDiv:not(:hover) {
+    transform : scale(1);
+    transition: transform 0.4s;
+}
+
+nav{
+    background : linear-gradient(to right, #1BBEE7, #A4E163);
+    
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div {
+    display: flex;
+    align-items: center;
+}
+nav div img{
+    margin-right: 5px;
+    width: 25px;
+}
+nav a, #searchDiv{
+    margin : 10px;
+    padding: 12px;
+    background: #7DD44A;
+    border-radius : 20px;
+    text-decoration: none;
+    color: white;
+}
+#searchBar{
+    border-radius: 15px;
+}
+.highlight{
+    background-color: greenyellow;
+}
+
 img.terre{
 	width: 50px!important;
 	margin: 2px;
@@ -69,7 +148,7 @@ span.parUn{
 	/*margin: 2%;*/
 	
 }
-h1, h4 {
+main h1, h4 {
 	color: lightblue;
 	text-align: center;
 }
@@ -89,7 +168,7 @@ div.diapo {
 section {
 	margin-bottom: 5%;
 }
-img {
+main img {
 	width: 300px;
 }
 p{
@@ -147,7 +226,7 @@ h3#tun{
 p {
 	text-align: center;
 }
-img {
+main img {
 	margin-right: 20px;
 	margin-left: 20px;
 }
@@ -190,97 +269,6 @@ span.dot.active {
 	transform: scale(1.2);
 }
 
-
-
-
-
-
-
-
-
-
-body{
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-
-    margin: 0;
-}
-h2{
-    color: navy;
-}
-
-header{
-    background : linear-gradient(to right, #A4E163, #1BBEE7);
-    color: white;
-
-    max-height: 150px;
-    padding : 10px 10px;
-    display: flex;
-    align-items: top;
-    justify-content: space-between;
-
-    font-size: x-large;
-}
-header a {
-    display: inline-block;
-}
-footer>a img, header>a>img{
-    width: 100px;
-    margin-right: 100px;
-}
-footer>div>a img, header>div>a img{
-    width: 50px;
-    margin-top: 15px;
-}
-
-a:hover, #searchDiv:hover {
-    transform:scale(1.05);
-    transition: transform 0.4s;
-}
-a:not(:hover), #searchDiv:not(:hover) {
-    transform : scale(1);
-    transition: transform 0.4s;
-}
-
-nav{
-    background : linear-gradient(to right, #1BBEE7, #A4E163);
-    
-    padding: 0px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-nav div {
-    display: flex;
-    align-items: center;
-}
-nav div img{
-    margin-right: 5px;
-    width: 25px;
-}
-nav a, #searchDiv{
-    margin : 10px;
-    padding: 12px;
-    background: #7DD44A;
-    border-radius : 20px;
-    text-decoration: none;
-    color: white;
-}
-/*concerne les a du nav et les 4 logos*/
-a:hover, #searchDiv:hover {
-    transform : scale(1.05);
-    transition: transform 0.4s;
-}
-a:not(hover), #searchDiv:not(hover) {
-    transform : scale(1);
-    transition: transform 0.4s;
-}
-#searchBar{
-    border-radius: 15px;
-}
-.highlight{
-    background-color: greenyellow;
-}
 
 
 footer{

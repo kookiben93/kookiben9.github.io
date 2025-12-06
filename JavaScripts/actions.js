@@ -1,5 +1,5 @@
 // Tableau des images
-const images = ["../white.jpg", "../t.webp", "../main.jpg", "../planete.png", "../asso.png", "../avion.jpg", "../recyclage.jpg"];
+const images = ["../Images/white.jpg", "../Images/t.webp", "../Images/main.jpg", "../Images/planete.png", "../Images/asso.png", "../Images/avion.jpg", "../Images/recyclage.jpg"];
 let index = 0;
 
 // Sélection des éléments
