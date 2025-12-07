@@ -1,5 +1,5 @@
-
 const searchBar = document.getElementById("searchBar");
+
 const paragraphs = document.querySelectorAll("p");
 
 paragraphs.forEach(p => p.dataset.original = p.innerHTML);
